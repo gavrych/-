@@ -1,6 +1,6 @@
-c={'A','B','C','E','H','K','M','O','P','T','Y','X'} # можно добавить и русские буквы
+c={'A','B','C','E','H','K','M','O','P','T','Y','X'} # can add russian letter if need
 a = ['A123AA11','A222AA123','A12AA123','A123CC1234','AA123A12',
-     'hsbvbsks','a876oi89','123354684','gchcffhg','AAAAAAAA','У789MH59']
+     'hsbvbsks','a876oi89','123354684','gchcffhg','AAAAAAAA','Г“789MH59']
 for elem in a:
     b=elem
     if len(b)>9 or len(b)<8:
