@@ -29,7 +29,7 @@ for i in range(2,len(b),3):
         c1.append(x)
         c1.append(y)
         c1.append(b[i])
-    elif x<0 and y>0:
+    elif x<=0 and y>=0:
         c2.append(x)
         c2.append(y)
         c2.append(b[i])
@@ -37,7 +37,7 @@ for i in range(2,len(b),3):
         c3.append(x)
         c3.append(y)
         c3.append(b[i])
-    elif x>=0 and y<0:
+    elif x>=0 and y<=0:
         c4.append(x)
         c4.append(y)
         c4.append(b[i])       
@@ -55,5 +55,5 @@ for i in range(2,len(c),3):
         maxr=r
     if r<minr:
         minr=r        
-    print('òî÷êà-',int((i/3)+1),'X',x,'Y',y,r)
+    print('Ã²Ã®Ã·ÃªÃ -',int((i/3)+1),'X',x,'Y',y,r)
 print('maximum distance', maxr,'minimum distance',minr,'average distance',sr/n)
