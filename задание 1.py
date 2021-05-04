@@ -55,5 +55,5 @@ for i in range(2,len(c),3):
         maxr=r
     if r<minr:
         minr=r        
-    print('òî÷êà-',int((i/3)+1),'X',x,'Y',y,r)
+    print('Point-',int((i/3)+1),'X',x,'Y',y,r)
 print('maximum distance', maxr,'minimum distance',minr,'average distance',sr/n)
